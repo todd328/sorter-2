@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 # Configuration
 # ---------------------------------------------------------------------------
 VERSION = "2.0"
-HOST_IP = os.environ.get("SURESORT_HOST", "172.17.0.150")
+HOST_IP = os.environ.get("SURESORT_HOST", "172.17.3.150")
 PORT = int(os.environ.get("SURESORT_PORT", "24200"))
 
 BASE_API_URL = os.environ.get("SURESORT_API_URL", "http://atlprod:1025/suresort2")
